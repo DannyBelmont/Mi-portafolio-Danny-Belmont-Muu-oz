@@ -1,1 +1,28 @@
+:root {
+    /* here variables goes */
+    --color-primary: #FAAE2B;
+    --color-secundary:#00473E;
+
+    --font-headings: 'Bricolage Grotesque', sans-
+    --font-body: 'Firo Nono', nonospace; 
+
+    --spacer-lg:3rem;
+}
+
+/* importar bootstrap */
+@import '~bootstrap/dist/css/bootstrap.min.css';
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap');
+
+/* Fonts */
+h1.title {
+    font-family: var(--font-headings);
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: var(--spacer-lg);
+}
+
+p{
+    font-family: var(--font-body)
+}
+
+
