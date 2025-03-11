@@ -1,28 +1,55 @@
-:root {
-    /* here variables goes */
-    --color-primary: #FAAE2B;
-    --color-secundary:#00473E;
-
-    --font-headings: 'Bricolage Grotesque', sans-
-    --font-body: 'Firo Nono', nonospace; 
-
-    --spacer-lg:3rem;
-}
-
 /* importar bootstrap */
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap');
 
+
+:root {
+    /* colores */
+    --color-primary: #FAAE2B;
+    --color-secundary:#00473E;
+    --color-dark:#000000;
+    --color-whithe:#FFFFFF;
+
+    /* Fuentes */
+    --font-headings: "Bakbak One", sans-serif;
+    --font-body: "Be Vietnam Pro", sans-serif; 
+
+    /* Sapacers */
+    --spacer-lg: 3rem;
+    --spacer-md: 1rem;
+    --spacer-sm: 0.5rem;
+}
+
+
+body.container-portfolio {
+    margin: 0 auto;
+    color: var(--color-whithe);
+    background-color: var(--color-primary);
+    font-family: var(--font-body);
+  }
+  *::selection {
+    background-color: var(--color-secundary);
+    color: var(--color-primary);
+  }
+
 /* Fonts */
 h1.title {
     font-family: var(--font-headings);
-    font-size: xx-large;
+    font-size: 5rem;
     font-weight: bolder;
-    margin: var(--spacer-lg);
+    position: relative;
 }
 
 p{
     font-family: var(--font-body)
+}
+
+h4,h6{
+    font-family: var(--font-headings);
+  }
+  
+p{
+    font-family: var(--font-body);
 }
 
 

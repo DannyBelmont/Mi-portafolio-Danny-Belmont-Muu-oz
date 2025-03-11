@@ -19,8 +19,7 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
     <!-- importar bootstrap  -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
@@ -31,11 +30,20 @@
       crossorigin="anonymous"
     ></script>
     <!-- fin importacion bootstrap  -->
+
+    <!-- importacion fuente  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap" 
+      rel="stylesheet">
+    
   </head>
 
   <body>
 <!-- Pagina principal -->
-  <nav> </nav>
+<div class="p-3 mb-2 bg-dark text-white">
+  <body class="container-portfolio">
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Danny</a>
@@ -72,15 +80,17 @@
   </nav>
   
  
-    <section>
-    <h1> Mi nombre es: Danny Belmont Muñoz </h1>
+  <section>
+    <h1 class="title" data-text="Mi nombre es: Danny Belmont Muñoz"> Mi nombre es: Danny Belmont Muñoz </h1>
     <p> Soy un diseñador grafico, con 5 años experiencia en trabajando en una imprenta, trabajo con equipo de serigrafia, sublimación, diseño de logotipos, dibujo digital, etc </p>
-    <img src="/src/img/IMG-20250219-WA0132[1].jpg" width="140">
-    </section>
+    
+    <div class="description-container col-4">
+      <img src="/src/img/IMG-20250219-WA0132[1].jpg" width="130">
+      
+      <p> Actualmente estudiante de Universidad Autonoma Metropolitana Unidad Cuajimalpa, matriculado en la licenciatura en Diseño </p>
+    </div>
+  </section>
 
-<section>
-  <p> Actualmente estudiante de Universidad Autonoma Metropolitana Unidad Cuajimalpa, matriculado en la licenciatura en Diseño </p>
-</section>
 
 <section>
   <h2> Herramientas que se usar </h2>
@@ -93,7 +103,8 @@
 </section>
 
 <section>
-  <h3> Instituciones en las que estudie </h3>
+  <h2> Instituciones en las que estudie </h2>
+  <div class="p-3 mb-2 bg-light text-dark">
   <img src="/src/img/267. Santa Fe.png" width="100"> 
   <img src="/src/img/cuajimalpa 50.png" width="200"> 
   <img src="/src/img/logo_dccd_ab2_bg.png" width="70"> 
@@ -102,6 +113,7 @@
   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
     <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
   </svg>
+  </div>
 </section>
 
 <!-- Apartado de proyectos -->
@@ -110,40 +122,40 @@
 <h1> Proyectos Escolares </h1>
 <p> Proyectos realizados durante mi estancia en la UAM Cuajimalpa en la carrera de diseño </p>
 
-<h6>Emocionario: Libro de actividades infantil</h6>
+<h4>Emocionario: Libro de actividades infantil</h4>
 <img src="/src/img/libro de actividades infantil.jpg" width="200">
 
-<h6>Empaque tetrapak</h6>
+<h4>Empaque tetrapak</h4>
 <img src="/src/img/empaque jugo (2).jpg" width="200">
 
-<h6>Rediseño del Parque Jaguares, Coacalco</h6>
+<h4>Rediseño del Parque Jaguares, Coacalco</h4>
 <img src="/src/img/rediseño de parque.jpg" width="200">
 
-<h6>Sistema de ubicacion y señalizacion para RTP</h6>
+<h4>Sistema de ubicacion y señalizacion para RTP</h4>
 <img src="/src/img/parabus_rtp.png" width="200">
 
-<h6>Poster promocional: Frutos de Vida</h6>
+<h4>Poster promocional: Frutos de Vida</h4>
 <img src="/src/img/mango_naranja_1.jpg" width="200">
 
-<h6>Juguete impresion 3D</h6>
+<h4>Juguete impresion 3D</h4>
 <img src="/src/img/juguete impresion3D.jpg" width="130">
 
-<h6>Lampara Led</h6>
+<h4>Lampara Led</h4>
 <img src="/src/img/lampara con termoformadora.jpg" width="150">
 
-<h6>Macetas</h6>
+<h4>Macetas</h4>
 <img src="/src/img/Macetas.jpg" width="130">
 
-<h6>Prenda para ciclista / Corte en ploter</h6>
+<h4>Prenda para ciclista / Corte en ploter</h4>
 <img src="/src/img/Prenda para ciclista.jpg" width="150">
 
-<h6>Señal Luminosa</h6>
+<h4>Señal Luminosa</h4>
 <img src="/src/img/señal luminosa.jpg" width="140">
 
-<h6>Muro Haptico</h6>
+<h4>Muro Haptico</h4>
 <img src="/src/img/muro_haptico.jpg" width="200">
 
-<h6>Juguete infantil / Corte en router CNC</h6>
+<h4>Juguete infantil / Corte en router CNC</h4>
 <img max-width="10" src="/src/img/juguete router.jpg" width="140">
 
 </section>
@@ -155,17 +167,17 @@
 <p> Impresión en playeras, sudaderas, servilletas, vasos, tarjetas de presentacion, etc.
   Precio varea por numero y tipo de tinta (Normal, Texturizada y luminicente)
   Impresión por mayoreo  </p>
-<h6>Playeras</h6>
+<h4>Playeras</h4>
 <img src="/src/img/dtf4.jpg" width="130">
-<h6>Sudaderas</h6>
+<h4>Sudaderas</h4>
 <img src="/src/img/dtfsudadera1.jpg" width="130">
-<h6>Gorras</h6>
+<h4>Gorras</h4>
 <img src="/src/img/gorra dtf.jpg" width="130">
-<h6>Servilletas</h6>
+<h4>Servilletas</h4>
 <img src="/src/img/....." width="130">
-<h6>Vasos</h6>
+<h4>Vasos</h4>
 <img src="/src/img/....." width="130">
-<h6>Tarjetas de presentacion</h6>
+<h4>Tarjetas de presentacion</h4>
 <img src="/src/img/tarjeta serigrafia.jpg" height="200">
 
 </section>
@@ -173,17 +185,17 @@
 <!-- Apartado de impresion por sublimacion -->
 <nav> </nav>
 <section id="sublimacion">
-<h1 style="color: FAAE2B">Trabajos de Sublimacion</h1>
+<h1>Trabajos de Sublimacion</h1>
 <p> Impresión de playeras y sudaderas en textil tipo poliester, gorras y tazas </p>
-<h6 style="color: FAAE2B">Playeras</h6>
+<h4>Playeras</h4>
 <img src="/src/img/sublimacion.jpg" width="130">
-<h6>Sudaderas</h6>
+<h4>Sudaderas</h4>
 <img src="/src/img/sudadera sublimacion.jpg" width="130">
-<h6 style="color: FAAE2B">Gorras</h6>
+<h4>Gorras</h4>
 <img src="/src/img/Gorra sublimacion.jpg" width="130">
-<h6>Taza blanca</h6>
+<h4>Taza blanca</h4>
 <img src="/src/img/taza.jpg" width="130">
-<h6 >Taza magica</h6>
+<h4 >Taza magica</h4>
 <img src="/src/img/taza magica 3.jpg" width="130">
 
 </section>
@@ -191,19 +203,19 @@
 <!-- Apartado de trabajos, archivos digtales -->
 <nav> </nav>
 <section id="digital">
-<h1 style="color: FAAE2B">Trabajos Digitales</h1>
+<h1></h1>Trabajos Digitales</h1>
 <p> Logotipo, Edicion de imagen, Arte digital, Planos en Autocad, Modelado 3D, Animación 2D y 3D </p>
-<h6 style="color: FAAE2B">Logotipos</h6>
+<h4>Logotipos</h4>
 <img src="/src/img/logotipo Pillow Industry.png" width="130">
-<h6 style="color: FAAE2B">Edicion de imagenes</h6>
+<h6>Edicion de imagenes</h4>
 <img src="/src/img/Propuesta 2 de Cartel Pillow Industry.png" width="200">
-<h6 style="color: FAAE2B">Dibujo Digital</h6>
+<h4>Dibujo Digital</h4>
 <img src="/src/img/Logo MaGishop.png" width="130">
-<h6 style="color: FAAE2B">Trabajos en Autocad</h6>
+<h4>Trabajos en Autocad</h4>
 <img src="/src/img/imagen planos autocad.jpg" width="200">
-<h6 style="color: FAAE2B">Modelado 3D</h6>
+<h4>Modelado 3D</h4>
 <img src="/src/img/Render Spinosaurus.png" width="200">
-<h6 style="color: FAAE2B">Animacion 2D y 3D</h6>
+<h4>Animacion 2D y 3D</h4>
 <img src="/src/img/animacion Gray.png" width="130">
 
 </section>
@@ -213,17 +225,17 @@
 <section id="extras">
 <h1 style="color: FAAE2B">Extras</h1>
 <p> Trabajos de impresion de notas, tarjetas de presentacion, programas, lonas, invitaciones, dibujos fisicos, etc </p>
-<h6 style="color: FAAE2B">Dibujos en fisico</h6>
+<h4>Dibujos en fisico</h4>
 <img src="/src/img/dibujo1.jpg" width="130">
-<h6 style="color: FAAE2B">Cartel</h6>
+<h4>Cartel</h4>
 <img src="/src/img/Gremio de choferes año nuevo.png" width="130">
-<h6 style="color: FAAE2B">Lona</h6>
+<h4>Lona</h4>
 <img src="/src/img/Lona magishop.png" height="160">
-<h6 style="color: FAAE2B">Invitaciones</h6>
+<h4>Invitaciones</h4>
 <img src="/src/img/boda.jpg" height="160">
-<h6 style="color: FAAE2B">Tarjetas de presentacion</h6>
+<h4>Tarjetas de presentacion</h4>
 <img src="/src/img/Tarjeta MaGishop 2.png" height="160">
-<h6 style="color: FAAE2B">Notas</h6>
+<h4>Notas</h4>
 <img src="/src/img/....." width="130">
 
 </section>
@@ -231,7 +243,7 @@
 <!-- Apartado de Contactos -->
 <nav> </nav>
 <section id="contacto">
-<h1 style="color: FAAE2B">Contacto</h1>
+<h1>Contacto</h1>
 <p> 55 1156 6109 </p>
 <p> Danny Belmont Muñoz </p>
 <p> @dannyjr0107 </p>
