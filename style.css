@@ -5,14 +5,12 @@
 
 :root {
     /* colores */
-    --color-primary: #FAAE2B;
-    --color-secundary:#00473E;
+    --color-yellow: #FAAE2B;
+    --color-green:#00473E;
     --color-dark:#000000;
     --color-whithe:#FFFFFF;
 
     /* Fuentes */
-    --font-headings: "Bakbak One", sans-serif;
-    --font-body: "Be Vietnam Pro", sans-serif; 
 
     /* Sapacers */
     --spacer-lg: 3rem;
@@ -24,27 +22,25 @@
 body.container-portfolio {
     margin: 0 auto;
     color: var(--color-whithe);
-    background-color: var(--color-primary);
+    background-color: var(--color-yellow);
     font-family: var(--font-body);
   }
   *::selection {
-    background-color: var(--color-secundary);
-    color: var(--color-primary);
+    background-color: var(--color-green);
+    color: var(--color-yellow);
   }
 
 /* Fonts */
-h1.title {
-    font-family: var(--font-headings);
-    font-size: 5rem;
-    font-weight: bolder;
-    position: relative;
+h1,h2.naranja {
+    color: var(--color-yellow);
+
 }
 
 p{
     font-family: var(--font-body)
 }
 
-h4,h6{
+h4,h6.titles {
     font-family: var(--font-headings);
   }
   
