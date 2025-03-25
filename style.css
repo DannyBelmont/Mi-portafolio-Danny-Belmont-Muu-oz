@@ -5,10 +5,10 @@
 
 :root {
     /* colores */
-    --color-yellow: #FAAE2B;
-    --color-green:#00473E;
-    --color-dark:#000000;
-    --color-whithe:#FFFFFF;
+    --color-yellow: rgb(255, 234, 0);
+    --color-green:rgba(0, 128, 0, 0.774);
+    --color-dark:black;
+    --color-whithe:white;
 
     /* Fuentes */
 
@@ -31,7 +31,12 @@ body.container-portfolio {
   }
 
 /* Fonts */
-h1,h2.naranja {
+h1.amarillo {
+  color: var(--color-yellow);
+
+}
+
+h2.title {
     color: var(--color-yellow);
 
 }
