@@ -31,12 +31,12 @@ body.container-portfolio {
   }
 
 /* Fonts */
-h1.amarillo {
-  color: var(--color-yellow);
+h1.titulo {
+  color: rgb(255, 234, 0);
 
 }
 
-h2.title {
+h2.titulo2 {
     color: var(--color-yellow);
 
 }
