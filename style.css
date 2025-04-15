@@ -1,22 +1,20 @@
 /* importar bootstrap */
 @import '~bootstrap/dist/css/bootstrap.min.css';
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
 
 
 :root {
     /* colores */
-    --color-yellow: rgb(255, 234, 0);
-    --color-green:rgba(0, 128, 0, 0.774);
+    --color-yellow: #FFBF00;
+    --color-green:#00332C;
     --color-dark:black;
     --color-whithe:white;
 
     /* Fuentes */
-
+      --font-titles: "Bakbak One", sans-serif;
+    
     /* Sapacers */
-    --spacer-lg: 3rem;
-    --spacer-md: 1rem;
-    --spacer-sm: 0.5rem;
-}
 
 
 body.container-portfolio {
@@ -32,25 +30,24 @@ body.container-portfolio {
 
 /* Fonts */
 h1.titulo {
-  color: rgb(255, 234, 0);
-
+  font-family: var(--font-titles);
+  font-size: 5rem;
+  font-weight: bolder;
+  position: relative;
+  z-index: 0;
 }
-
-h2.titulo2 {
-    color: var(--color-yellow);
-
-}
-
-p{
-    font-family: var(--font-body)
-}
-
-h4,h6.titles {
-    font-family: var(--font-headings);
-  }
-  
-p{
-    font-family: var(--font-body);
 }
 
 
+a.nav-link:hover{
+  background-color: #00332C ;
+  border:2px solid black;
+  color: white;
+}
+
+
+div.rect {
+  background-color: #fffffff1;
+  border:30px
+  color: black;
+}
