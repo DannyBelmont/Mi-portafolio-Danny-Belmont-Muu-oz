@@ -31,8 +31,6 @@ body.container-portfolio {
 /* Fonts */
 h1.titulo {
   font-family: var(--font-titles);
-  font-size: 5rem;
-  font-weight: bolder;
   position: relative;
   z-index: 0;
 }
