@@ -38,6 +38,7 @@ h1.titulos {
   text-align: center;
   position: relative;
   z-index: 0;
+  padding-top: 2vw;
   color:#FFBF00;
 }
 
@@ -46,6 +47,7 @@ h2.titulo {
   position: relative;
   z-index: 0;
   color:#FFBF00;
+  padding-top: 2vw;
 }
 
 h3.text {
@@ -54,6 +56,7 @@ h3.text {
   position: relative;
   z-index: 0;
   color: black;
+  padding-top: 2vw;
 }
 
 h5.info {
@@ -62,6 +65,7 @@ h5.info {
   position: relative;
   z-index: 0;
   color: white;
+  padding-top: 2vw;
 }
 
 a.nav-link:hover{
@@ -96,4 +100,30 @@ div.rect {
   margin: 3vw;
   text-align: center;
   color: black;
+  padding-top: 2vw;
+}
+
+div.superior {
+  background-color: dark;
+  width: 100%;
+  height: 80px;
+  object-fit: cover;
+}
+
+button:hover{
+  background-color: #FFBF00;
+  color:aliceblue
+}
+
+div.piedepagina {
+  position: fixed;
+  bottom: 0%;
+  background-color: #FFBF00;
+  width: 100%;
+  height: 2vw;
+  color:#00332C;
+  display: flex;
+  justify-content: right;
+  margin-right: 2%;
+}
 }
