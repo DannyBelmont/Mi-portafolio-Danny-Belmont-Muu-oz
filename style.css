@@ -125,6 +125,6 @@ div.piedepagina {
   display: flex;
   justify-content: right;
   margin-right: 2%;
-  margin-inline-end: 5%;
+  margin-bottom: 2%;
 }
 }
