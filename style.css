@@ -120,11 +120,12 @@ div.piedepagina {
   bottom: 0%;
   background-color: #FFBF00;
   width: 100%;
-  height: 2vw;
+  height: 3vw;
   color:#00332C;
   display: flex;
   justify-content: right;
+  margin-top: 2%;
   margin-right: 2%;
-  margin-bottom: 2%;
+  margin-bottom: .5%;
 }
 }
