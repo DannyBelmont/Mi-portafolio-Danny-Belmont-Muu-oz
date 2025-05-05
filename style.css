@@ -9,7 +9,7 @@
     --color-yellow: #FFBF00;
     --color-green:#00332C;
     --color-dark:#1E1E1E;
-    --color-whithe:white;
+    --color-whithe:rgb(236, 234, 234);
 
 
     /* Fuentes */
@@ -56,7 +56,7 @@ h3.text {
   position: relative;
   z-index: 0;
   color: black;
-  padding-top: 2vw;
+  margin: 3vw;
 }
 
 h5.info {
@@ -100,13 +100,13 @@ div.rect {
   margin: 3vw;
   text-align: center;
   color: black;
-  padding-top: 2vw;
+  padding: 2vw;
 }
 
 div.superior {
   background-color: dark;
   width: 100%;
-  height: 80px;
+  height: 50px;
   object-fit: cover;
 }
 
@@ -120,12 +120,12 @@ div.piedepagina {
   bottom: 0%;
   background-color: #FFBF00;
   font-size: 2vw;
+  text-align:end;
   width: 100%;
   height: 5vw;
   color:#00332C;
   display: flex;
   justify-content: right;
-  margin: 1%;
   margin-top: 1vw;
   margin-right: 1%;
 }
