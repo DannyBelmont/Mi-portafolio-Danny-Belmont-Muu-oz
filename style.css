@@ -136,7 +136,6 @@ div.whatsapp {
   font-size: 1.5rem;
   border-radius:5vw;
   margin: 2vw;
-  color: var(--color-whithe);
   text-decoration:none;
   justify-content: center;
   padding-top: 1vw;
@@ -152,7 +151,6 @@ div.facebook {
   font-size: 1.5rem;
   border-radius:5vw;
   margin: 2vw;
-  color: var(--color-dark);
   text-decoration: none;
   justify-content: center;
   padding-top: 1vw;
@@ -168,7 +166,6 @@ div.instagram {
   font-size: 1.5rem;
   border-radius:5vw;
   margin: 2vw;
-  color: rgb(255, 255, 255);
   text-decoration: none;
   padding-top: 1vw;
   padding-bottom: 1vw;
@@ -183,7 +180,6 @@ div.correo {
   font-size: 1.5rem;
   border-radius:5vw;
   margin: 2vw;
-  color: dark;
   text-decoration: none;
   padding-top: 1vw;
   padding-bottom: 1vw;
